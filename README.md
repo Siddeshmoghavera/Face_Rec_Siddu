@@ -134,7 +134,7 @@ Face_Rec_Siddu/
 
 ### Real-Time Face Recognition (Live System)
 
-![Face Recognition Demo](assets/demo.png)
+![Face Recognition Demo](assets/demo1.png)
 
 - Real-time multi-person detection and tracking  
 - Unique **Person ID** and **Face ID** assignment  
