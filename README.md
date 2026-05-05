@@ -56,3 +56,15 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+
+## ⚠️ Requirements
+
+- Requires `opencv-python`, `dlib`, and `face_recognition`
+- On Windows, install Visual C++ Build Tools if `dlib` installation fails
+
+---
+## ⚡ Quick Start
+
+```bash
+python examples/facerec_from_webcam_faster.py
