@@ -4,7 +4,7 @@ A high-performance Python face recognition and detection system built for real-t
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **Real-Time Webcam Recognition**
   - Optimized processing using frame skipping for higher FPS.
@@ -26,7 +26,7 @@ A high-performance Python face recognition and detection system built for real-t
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - Installation
 - Quick Start
@@ -37,7 +37,7 @@ A high-performance Python face recognition and detection system built for real-t
 
 ---
 
-## 💻 Installation
+## Installation
 
 ```bash
 # Clone repository
@@ -58,13 +58,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-## ⚠️ Requirements
+## Requirements
 
 - Requires `opencv-python`, `dlib`, and `face_recognition`
 - On Windows, install Visual C++ Build Tools if `dlib` installation fails
 
 ---
-## ⚡ Quick Start
+## Quick Start
 
 ```bash
 python examples/facerec_from_webcam_faster.py
@@ -76,7 +76,7 @@ python examples/facerec_from_webcam_faster.py
 -Press ESC to exit.
 
 
-## 🎥 Usage: Advanced Webcam Monitoring
+##Usage: Advanced Webcam Monitoring
 
 The `facerec_from_webcam_faster.py` script is designed for production-like environments where you need to track guests or staff.
 
@@ -87,7 +87,7 @@ The `facerec_from_webcam_faster.py` script is designed for production-like envir
 *Captured images are saved with timestamps in the `examples/captured_faces/` directory.*
 ```
 
-## 🖼️ Usage: Image & Video Processing
+## Usage: Image & Video Processing
 
 If you need to analyze static files, use the provided CLI or example scripts:
 
@@ -109,7 +109,7 @@ python face_recognition/face_detection_cli.py --image path/to/image.jpg
 python face_recognition/face_recognition_cli.py --image path/to/image.jpg --known-dir path/to/train
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Face_Rec_Siddu/
@@ -130,9 +130,9 @@ Face_Rec_Siddu/
 └─ README.md                       # This documentation
 ```
 
-## 📸 Demo & Output
+## Demo & Output
 
-### 🎥 Real-Time Face Recognition (Live System)
+### Real-Time Face Recognition (Live System)
 
 ![Face Recognition Demo](assets/demo.png)
 
@@ -144,7 +144,7 @@ Face_Rec_Siddu/
 
 ---
 
-### 🧠 System Capabilities Shown
+### System Capabilities Shown
 
 - Detects multiple faces simultaneously  
 - Tracks individuals across frames  
@@ -154,7 +154,7 @@ Face_Rec_Siddu/
 
 ---
 
-### 📌 Example Output Details
+### Example Output Details
 
 - **Camera:** CAM 02  
 - **Time:** 20:47:36  
@@ -164,7 +164,7 @@ Face_Rec_Siddu/
 ---
 
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
