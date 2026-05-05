@@ -68,3 +68,21 @@ pip install -r requirements.txt
 
 ```bash
 python examples/facerec_from_webcam_faster.py
+
+-Starts webcam detection
+- Displays bounding boxes
+- Saves detected faces automatically
+
+-Press ESC to exit.
+
+
+## 🎥 Usage: Advanced Webcam Monitoring
+
+The `facerec_from_webcam_faster.py` script is designed for production-like environments where you need to track guests or staff.
+
+- **Face Tracking**: Assigns a unique `face_id` to each person in the frame and tracks them across frames.
+- **Best-Frame Selection**: Only saves the highest confidence, least blurry image of a person within a configurable cooldown period.
+- **Verification Queue**: Outputs a structured queue of faces that need manual review (useful for integrating with a Manager Dashboard).
+
+*Captured images are saved with timestamps in the `examples/captured_faces/` directory.*
+```
