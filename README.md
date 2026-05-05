@@ -130,6 +130,40 @@ Face_Rec_Siddu/
 └─ README.md                       # This documentation
 ```
 
+## 📸 Demo & Output
+
+### 🎥 Real-Time Face Recognition (Live System)
+
+![Face Recognition Demo](assets/demo.png)
+
+- Real-time multi-person detection and tracking  
+- Unique **Person ID** and **Face ID** assignment  
+- Timestamp-based entry logging  
+- Bounding boxes with identity labels  
+- Entry status tracking (ENTERED)  
+
+---
+
+### 🧠 System Capabilities Shown
+
+- Detects multiple faces simultaneously  
+- Tracks individuals across frames  
+- Assigns unique IDs dynamically  
+- Displays live timestamp and camera feed info  
+- Logs entry records with status  
+
+---
+
+### 📌 Example Output Details
+
+- **Camera:** CAM 02  
+- **Time:** 20:47:36  
+- **Persons Detected:** 3  
+- **Status:** All Entered  
+
+---
+
+
 ## 📄 License
 
 This project is licensed under the MIT License.
