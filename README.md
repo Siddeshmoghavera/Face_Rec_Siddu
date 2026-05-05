@@ -86,3 +86,56 @@ The `facerec_from_webcam_faster.py` script is designed for production-like envir
 
 *Captured images are saved with timestamps in the `examples/captured_faces/` directory.*
 ```
+
+## 🖼️ Usage: Image & Video Processing
+
+If you need to analyze static files, use the provided CLI or example scripts:
+
+**Process a single image:**
+```bash
+python examples/check_person_image_with_boxes.py
+```
+
+**Process a video file:**
+```bash
+python examples/check_person_video_with_boxes.py
+```
+*The scripts will load known faces, prompt you for the input file, and save an annotated version in the `tests/test_images/test/` directory.*
+
+**Command Line Interfaces:**
+You can also use the built-in CLIs for quick terminal outputs:
+```bash
+python face_recognition/face_detection_cli.py --image path/to/image.jpg
+python face_recognition/face_recognition_cli.py --image path/to/image.jpg --known-dir path/to/train
+```
+
+## 📁 Project Structure
+
+```text
+Face_Rec_Siddu/
+├─ face_recognition/               # Core library files and CLI tools
+├─ examples/                       # Main application scripts
+│  ├─ facerec_from_webcam_faster.py # 🌟 Advanced live webcam monitor
+│  ├─ check_person_image_with_boxes.py
+│  ├─ check_person_video_with_boxes.py
+│  ├─ encodings.pkl                 # Cached face encodings
+│  └─ captured_faces/               # Auto-generated categorized captures
+│     ├─ known/
+│     ├─ unknown/
+│     └─ verification/
+├─ tests/                          
+│  └─ test_images/                 # Sample images, training data, and outputs
+├─ setup.py                        # Installation script
+├─ requirements.txt                # Python dependencies
+└─ README.md                       # This documentation
+```
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+It utilizes the face_recognition library by Adam Geitgey,
+which is also licensed under the MIT License.
+
+Additional modifications and enhancements to this project
+have been implemented by Siddesha S.
