@@ -166,10 +166,4 @@ Face_Rec_Siddu/
 
 ## License
 
-This project is licensed under the MIT License.
-
-It utilizes the face_recognition library by Adam Geitgey,
-which is also licensed under the MIT License.
-
-Additional modifications and enhancements to this project
-have been implemented by Siddesha S.
+Author - Siddesha S.
